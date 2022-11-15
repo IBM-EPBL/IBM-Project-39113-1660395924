@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<!-- My CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<title>AI Nutrition Analyser</title>
+</head>
+<body>
+
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class=''></i>
+			<span class="text" style="margin-left:70px ; margin-top:50px;">AI Nutrition Analyser</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="#">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-shopping-bag-alt' ></i>
+					<span class="text">Diet plan</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-doughnut-chart' ></i>
+					<span class="text">Analytics</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-group' ></i>
+					<span class="text">Consultation</span>
+				</a>
+			</li>
+		
+		
+			<li>
+				<a href="#">
+					<i class='bx bxs-cog' ></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="/logout" class="logout">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		
+	</section>
+	<!-- SIDEBAR -->
+
+
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="#" class="notification">
+				<i class='bx bxs-bell' ></i>
+				<span class="num">8</span>
+			</a>
+			<a href="#" class="profile">
+				<img src="img/people.png">
+			</a>
+		</nav>
+		
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Dashboard</h1>
+					<ul class="breadcrumb">
+						<li>
+							<a href="#">Dashboard</a>
+						</li>
+						<li><i class='bx bx-chevron-right' ></i></li>
+						
+					</ul>
+				</div>
+				
+			</div>
+
+			<ul class="box-info">
+				<li>
+					<i class='bx bxs-calendar-check' ></i>
+					<span class="text">
+						<h3>10,000</h3>
+						<p>Step Tracker</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-group' ></i>
+					<span class="text">
+						<h3>2000 Cal</h3>
+						<p>Calorie Tracker</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-dollar-circle' ></i>
+					<span class="text">
+						<h3>200</h3>
+						<p>Cal Burn</p>
+					</span>
+				</li>
+			</ul><div><br><br></div>
+			<!--FOOTER-->
+			<div class="row">
+				<div class="column">
+					<div class="container">
+						<img src="recepie.jpg" alt="">
+						<button class="btn">Recepie</button>
+					  </div>
+				  <h2>Recepie</h2>
+				  <p>Explore various healthy recepies applicapable for you. Enjoy your meal in a healthy and efficient way :)</p>
+				</div>
+				
+				<div class="column">
+					<button class="btn btn-primary bouton-image monBouton">Identify Me</button>
+					<style>.bouton-image:before {
+						content: "";
+						width: 16px;
+						height: 16px;
+						display: inline-block;
+						margin-right: 5px;
+						vertical-align: text-top;
+						background-color: transparent;
+						background-position : center center;
+						background-repeat:no-repeat;
+					}
+					
+					.monBouton:before{
+						 background-image : url(http://icons.iconarchive.com/icons/fatcow/farm-fresh/16/accept-icon.png);
+					}</style>
+				  <h2>Tracking</h2>
+				  <p>Track your daily calorie burns and intake here to keep in touch of the body index.</p>
+				</div>
+				
+				<div class="column">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp6WQd97BYorntYlYrLQCsXeCnDZzQyiMMWw&usqp=CAU" alt="Avatar" class="image" style="width:100%">
+				  <h2>Column</h2>
+				  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+				</div>
+			  </div><style>
+				.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+			  </style>
+
+
+			
+		<!-- MAIN -->
+	</section>
+	<!-- CONTENT -->
+	
+	 
+	  
+	
+
+	<script src="script.js"></script>
+
+
+</body>
+</html>
