@@ -1,4 +1,4 @@
-This is our daily Calorie Tracker feature page.
+This is our daily Calorie Tracker page.
 
 
 
